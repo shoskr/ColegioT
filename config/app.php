@@ -124,11 +124,11 @@ return [
         /*
          * Application Service Providers...
          */
-        'App\Providers\AppServiceProvider',
-        'App\Providers\BusServiceProvider',
-        'App\Providers\ConfigServiceProvider',
-        'App\Providers\EventServiceProvider',
-        'App\Providers\RouteServiceProvider',
+        'colegioT\Providers\AppServiceProvider',
+        'colegioT\Providers\BusServiceProvider',
+        'colegioT\Providers\ConfigServiceProvider',
+        'colegioT\Providers\EventServiceProvider',
+        'colegioT\Providers\RouteServiceProvider',
     ],
     /*
       |--------------------------------------------------------------------------

@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace colegioT\Events;
 
 abstract class Event {
 

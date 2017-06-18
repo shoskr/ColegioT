@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace colegioT\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -28,7 +28,7 @@ class AppServiceProvider extends ServiceProvider {
       {
       $this->app->bind(
       'Illuminate\Contracts\Auth\Registrar',
-      'App\Services\Registrar'
+      'colegioT\Services\Registrar'
       );
       } */
     public function register() {//lo ocupe para la ingeneria inversa
